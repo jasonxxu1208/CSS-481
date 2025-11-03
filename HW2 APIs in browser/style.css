@@ -1,0 +1,16 @@
+:root { color-scheme: light dark }
+    * { box-sizing: border-box; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 24px; line-height: 1.45; }
+    h1 { margin: 20px 20px 12px; }
+    h2 { margin: 20px 0 8px; }
+    .row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+    .card { border: 1px solid #cbd5e1; border-radius: 12px; padding: 14px; margin-top: 12px; }
+    .muted { color: #64748b; font-size: 0.95rem; }
+    input[type="text"], textarea { padding: 8px 10px; border: 1px solid #cbd5e1; border-radius: 8px; min-width: 240px; }
+    button { padding: 8px 12px; border: 1px solid #cbd5e1; border-radius: 8px; background: transparent; cursor: pointer; }
+    .chip { display:inline-flex; gap:6px; align-items:center; padding:6px 10px; border:1px solid #cbd5e1; border-radius:999px; }
+    .ok { color: #16a34a; }
+    .warn { color: #b45309; }
+    .err { color: #dc2626; }
+    .kbd { padding:1px 6px; border:1px solid #94a3b8; border-bottom-width:3px; border-radius:6px; font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .spacer { height: 4px; }
